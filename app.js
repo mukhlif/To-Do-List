@@ -40,7 +40,8 @@ function createElement(e){
    
  
     }
-
+//Clear the field
+document .querySelector('input#task').value='';
     e.preventDefault();
     headIng.innerHTML='';
 
